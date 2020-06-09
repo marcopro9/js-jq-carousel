@@ -15,7 +15,7 @@ $(document).ready( // attendo il caricamento del documento
 
 function showNextImage() { // funzione per scorrere in avanti le immagini e l'indice
   var image = $('.images img.active');
-  var circleCarousel = $('.nav i.active');
+  var indexCarousel = $('.nav i.active');
 
   image.removeClass('active');
   indexCarousel.removeClass('active');
